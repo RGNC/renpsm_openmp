@@ -70,7 +70,7 @@ Where:
 - ./renpsm_openmp < birrt_renpsm.pli
 - ./simulator -t 32 -d -m map.pgm -o output.pgm
 
-*Programming a program inside a program is something like a dream inside a dream...*
+*Programming a program inside a program is something like...*
 
 ![Inception](inception.jpg)
  
