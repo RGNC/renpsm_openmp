@@ -108,8 +108,6 @@ def init_variables()
 
 def init_rules()
 {
-	H{1,mem} <- X{1,mem}, alpha{20};
-
 	/* STEP 1 */
 	X{1,mem} <- random(1,p) , alpha{1};
 	X{2,mem} <- random(1,q) , alpha{1};
