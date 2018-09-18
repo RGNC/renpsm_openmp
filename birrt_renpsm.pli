@@ -40,8 +40,34 @@
 
 def main()
 {
-	init_parameters1(); // Init parameters for file rrt1.pgm
-	// init_parameters2(); // Init parameters for file office.pgm
+
+	/* BEGIN INIT PARAMETERS */
+	// Use a PGM file for obstacles.
+	// each pixel represents 0.5 x 0.5 cm
+	// The pixel (0,0) is up-left. 
+	// The pixel (p,q) is bottom-right
+		
+	// USE THIS PARAMETERS FOR MAP.PGM OBSTACLES FILE
+	p = 357; // width in pixels
+	q = 325; // height in pixels
+	
+	x0=162; y0 = 172; // Robot origin (x0,y0)
+	x1=277; y1 = 84; // Robot goal (x1,y1)
+	
+	delta = 2.0; // 2 cells ~ 10cm. Robot step.
+	threshold = 2.0; // 2 cells ~ 10cm. 
+	
+	// USE THIS PARAMETERS FOR OFFICE.PGM OBSTACLES FILE
+	//p = 784; // width in pixels
+	//q = 395; // height in pixels
+	
+	//x0 = 695; y0 = 191; // Robot origin (x0,y0)
+	//x1 = 172; y1= 96; // Robot goal (x1,y1)
+	
+	//delta = 2.0; // 2 cells ~ 15cm. Robot step.
+	//threshold = 2.0; // 2 cells ~ 15cm. 
+	
+	/* END INIT PARAMETERS */
 	
 	ha = y0*p + x0 + 1; // Label of initial membrane
 	hb = y1*p + x1 + 1; // Label of goal membrane
@@ -55,37 +81,6 @@ def main()
 	call init_rules();
 }
 
-// Initial parameters for file map.pgm
-// each pixel represents 0.5 x 0.5 cm
-// The pixel (0,0) is up-left. 
-// The pixel (p,q) is bottom-right
-def init_parameters1()
-{
-	p = 357; // width in pixels
-	q = 325; // height in pixels
-	
-	x0=162; y0 = 172; // Robot origin (x0,y0)
-	x1=277; y1 = 84; // Robot goal (x1,y1)
-	
-	delta = 2.0; // 2 cells ~ 10cm. Robot step.
-	threshold = 2.0; // 2 cells ~ 10cm. 
-}
-
-// Initial parameters for file office.pgm
-// each pixel represents 0.5 x 0.5 cm
-// The pixel (0,0) is up-left. 
-// The pixel (p,q) is bottom-right
-def init_parameters2()
-{
-	p = 784; // width in pixels
-	q = 395; // height in pixels
-	
-	x0 = 695; y0 = 191; // Robot origin (x0,y0)
-	x1 = 172; y1= 96; // Robot goal (x1,y1)
-	
-	delta = 2.0; // 2 cells ~ 15cm. Robot step.
-	threshold = 2.0; // 2 cells ~ 15cm. 
-}
 
 def init_membrane_structure()
 {

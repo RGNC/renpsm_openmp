@@ -28,7 +28,7 @@ You can compile the source code following the next steps:
 
 -  bison -yd renpsm.y
 -  flex renpsm.l
--  gcc y.tab.c lex.yy.c -lfl -O3 -o renpsm_openmp
+-  gcc y.tab.c lex.yy.c -lfl -o renpsm_openmp
 
 ## Using the P-Lingua RENPSM parser
 
@@ -66,10 +66,18 @@ Where:
 
 -  bison -yd renpsm.y
 -  flex renpsm.l
--  gcc y.tab.c lex.yy.c -lfl -O3 -o renpsm_openmp
+-  gcc y.tab.c lex.yy.c -lfl -o renpsm_openmp
 - ./renpsm_openmp < birrt_renpsm.pli
 - gcc simulator.c pgm.c -lm -O3 -fopenmp -o simulator
 - ./simulator -t 8 -d -m map.pgm -o output.pgm
+
+## Examples
+
+![Example1](/examples/example1.jpg)
+![Example2](/examples/example2.jpg)
+![Example3](/examples/example3.jpg)
+![Example4](/examples/example4.jpg)
+
 
 *Programming a program inside a program is something like...*
 
