@@ -34,9 +34,9 @@ You can compile the source code following the next steps:
 
 The generated renpsm_openmp program is a command-line executable with the next syntax:
 
-./renpsm_openmp < birrt_renpsm.pli
+./renpsm_openmp < model.pli
 
-Where ''birrt_renpsm.pli'' is a P-Lingua file defining a RENPSM.model.
+Where ''model.pli'' is a P-Lingua file defining a RENPSM.model.
 
 It generates as output a file called ''simulator.c'' containing the source code
 in C language and OpenMP for an ad-hoc simulator following the model defined in the P-Lingua file.
@@ -62,6 +62,16 @@ Where:
 - ''-m obstacles.pgm'' is the PGM file defining the obstacle grid for the collision function (optional).
 - ''-o output.pgm'' is the PGM file to print the membrane tree (only for RRT algorithms).
 
- 
+## Running the example
 
+-  bison -yd renpsm.y
+-  flex renpsm.l
+-  gcc y.tab.c lex.yy.c -lfl -O3 -Wall -o renpsm_openmp
+- ./renpsm_openmp < birrt_renpsm.pli
+- ./simulator -t 32 -d -m map.pgm -o output.pgm
+
+*Programming a program inside a program is something like a dream inside a dream...*
+
+[[inception.jpg|Inception]]
+ 
 
