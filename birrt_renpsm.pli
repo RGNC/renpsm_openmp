@@ -59,7 +59,6 @@ def main()
 // each pixel represents 0.5 x 0.5 cm
 // The pixel (0,0) is up-left. 
 // The pixel (p,q) is bottom-right
-
 def init_parameters1()
 {
 	p = 357; // width in pixels
@@ -76,7 +75,6 @@ def init_parameters1()
 // each pixel represents 0.5 x 0.5 cm
 // The pixel (0,0) is up-left. 
 // The pixel (p,q) is bottom-right
-
 def init_parameters2()
 {
 	p = 784; // width in pixels
@@ -91,7 +89,6 @@ def init_parameters2()
 
 def init_membrane_structure(ha,hb,skin)
 {
-	
 	@mu = [ []'ha []'hb ]'skin;
 }
 
