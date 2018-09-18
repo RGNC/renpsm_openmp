@@ -72,6 +72,6 @@ Where:
 
 *Programming a program inside a program is something like a dream inside a dream...*
 
-[[https://github.com/RGNC/renpsm_openmp/blob/master/inception.jpg|Inception]]
+[[inception.jpg]]
  
 
