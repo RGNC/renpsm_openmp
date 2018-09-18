@@ -69,7 +69,7 @@ Where:
 -  gcc y.tab.c lex.yy.c -lfl -O3 -o renpsm_openmp
 - ./renpsm_openmp < birrt_renpsm.pli
 - gcc simulator.c pgm.c -lm -O3 -fopenmp -o simulator
-- ./simulator -t 32 -d -m map.pgm -o output.pgm
+- ./simulator -t 8 -d -m map.pgm -o output.pgm
 
 *Programming a program inside a program is something like...*
 
