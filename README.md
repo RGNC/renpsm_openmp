@@ -67,7 +67,10 @@ Where:
 
 - ./renpsm_openmp < birrt_renpsm_test1.pli
 - gcc simulator.c pgm.c -lm -O3 -fopenmp -o test1
-- ./test1 -t 8 -d -m map.pgm -o test1_output.pgm
+- For debug the computation step by step:
+-- ./test1 -t 8 -d -m map.pgm -o test1_output.pgm
+- For run the computation until halting condition:
+-- ./test1 -t 8 -m map.pgm -o test1_output.pgm
 
 ### Example outputs
 
@@ -81,8 +84,10 @@ Where:
 
 - ./renpsm_openmp < birrt_renpsm_test2.pli
 - gcc simulator.c pgm.c -lm -O3 -fopenmp -o test2
-- ./test2 -t 8 -d -m office.pgm -o test2_output.pgm
-
+- For debug the computation step by step:
+-- ./test2 -t 8 -d -m office.pgm -o test2_output.pgm
+- For run the computation until halting condition:
+-- ./test2 -t 8 -m office.pgm -o test2_output.pgm
 
 ### Example outputs
 
