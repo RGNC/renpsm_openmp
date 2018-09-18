@@ -32,13 +32,13 @@ You can compile the source code following the next steps:
 
 # Using the P-Lingua RENPSM parser
 
-The generated renpsm_openmp is a command-line executable with the next syntax:
+The generated renpsm_openmp program is a command-line executable with the next syntax:
 
 - ./renpsm_openmp < birrt_renpsm.pli
 
 Where ''birrt_renpsm.pli'' is a P-Lingua file defining a RENPSM.model.
 
-It generates as input a file called ''simulator.c'' containing the source code
+It generates as output a file called ''simulator.c'' containing the source code
 in C language and OpenMP for an ad-hoc simulator following the model defined in the P-Lingua file.
 
 You can compile the generated ad-hoc simulator with the next line:
