@@ -525,9 +525,10 @@ void generate_c_simulator(FILE* fp, DEFINITIONS* defs)
 	}
 	
 	fprintf(fp,"\t// MAIN LOOP\n");
-	
+	fprintf(fp,"\tdouble init_time = omp_get_wtime();\n");
 	fprintf(fp,"\tloop();\n");
-	
+	fprintf(fp,"\tdouble end_time = omp_get_wtime();\n");
+	fprintf(fp,"\tprintf(\"Wall time: %%f seconds\\n\",end_time - init_time);\n");
 	fprintf(fp,"\t// WRITE OUTPUT FILE\n");
 	fprintf(fp,"\tfor (int i=0;i<membranes_in_%d_size;i++) {\n",labels[0]);
 	fprintf(fp,"\t\tint child = membranes_in_%d[i];\n",labels[0]);
