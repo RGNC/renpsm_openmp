@@ -100,6 +100,13 @@ Where:
 ![Example3](/examples/example7.jpg)
 ![Example4](/examples/example8.jpg)
 
+## Benchmarking
+
+You can run the script ''benchmark.sh'' to run 480 simulations: 30
+simulations for 8 different number of threads for 2 environments (30x8x2)
+using the same pseudo-random number generator seed and obtaining wall times
+for the simulations (excludind the reading and writing of files).
+
 
 *Programming a program inside a program is something like...*
 
