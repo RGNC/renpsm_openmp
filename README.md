@@ -102,11 +102,31 @@ Where:
 
 ## Benchmarking
 
-You can run the script ''benchmark.sh'' to run 480 simulations: 30
-simulations for 8 different number of threads for 2 environments (30x8x2)
+You can run the script ''benchmark.sh'' to run 240 simulations: 30
+simulations for 8 different number of threads for test 1 (map.pgm file)
 using the same pseudo-random number generator seed and obtaining wall times
 for the simulations (excludind the reading and writing of files).
+We have used a computer running Ubuntu Linux 16.04 over an AMD A10-9600P 
+processor with 4 cores and 12 GB of RAM obtaining the results in ''benchmark_output.txt''.
 
+If you want to write your benchmark output to a file:
+
+- ./benchmark.sh > file.txt
+
+where file.txt is the name of the output file.
+
+In order to process the data and compute average values and standard deviations, you
+can use the file ''process_benchmark_output.c''. Firstly, you should compile it:
+
+- gcc process_benchmark_output.c -o process_benchmark_output
+
+Then, you can process your output file as follows:
+
+- ./process_benchmark_output file.txt
+
+where file.txt is, again, the name of the output file containing the benchmark results.
+
+Average values and standard deviations will be prompted to the standard output.
 
 *Programming a program inside a program is something like...*
 

@@ -1,0 +1,3129 @@
+benchmark.sh birrt_renpsm_test1.pli birrt_renpsm_test2.pli examples functions.h gen_c.h inception.jpg lex.yy.c LICENSE map.pgm office.pgm pgm.c pgm.h README.md renpsm.l renpsm_openmp renpsm_parser.h renpsm.y salida.txt simulator.c test1 test1_output1.pgm test1_output.pgm test2 y.tab.c y.tab.h
+SIMULATING TEST 1
+benchmark.sh birrt_renpsm_test1.pli birrt_renpsm_test2.pli examples functions.h gen_c.h inception.jpg lex.yy.c LICENSE map.pgm office.pgm pgm.c pgm.h README.md renpsm.l renpsm_openmp renpsm_parser.h renpsm.y salida.txt simulator.c test1 test1_output1.pgm test1_output.pgm test2 y.tab.c y.tab.h
+
+------------------
+Threads: 1 Iteration: 1
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 20.689759 seconds
+
+------------------
+Threads: 1 Iteration: 2
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 20.048090 seconds
+
+------------------
+Threads: 1 Iteration: 3
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 25.270482 seconds
+
+------------------
+Threads: 1 Iteration: 4
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 20.110915 seconds
+
+------------------
+Threads: 1 Iteration: 5
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 21.338362 seconds
+
+------------------
+Threads: 1 Iteration: 6
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 23.715102 seconds
+
+------------------
+Threads: 1 Iteration: 7
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 17.665905 seconds
+
+------------------
+Threads: 1 Iteration: 8
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 18.392903 seconds
+
+------------------
+Threads: 1 Iteration: 9
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 16.840331 seconds
+
+------------------
+Threads: 1 Iteration: 10
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 25.989097 seconds
+
+------------------
+Threads: 1 Iteration: 11
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 30.137040 seconds
+
+------------------
+Threads: 1 Iteration: 12
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 37.528127 seconds
+
+------------------
+Threads: 1 Iteration: 13
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 41.014678 seconds
+
+------------------
+Threads: 1 Iteration: 14
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 35.437498 seconds
+
+------------------
+Threads: 1 Iteration: 15
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 24.942953 seconds
+
+------------------
+Threads: 1 Iteration: 16
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 21.123773 seconds
+
+------------------
+Threads: 1 Iteration: 17
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 27.175362 seconds
+
+------------------
+Threads: 1 Iteration: 18
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 41.533622 seconds
+
+------------------
+Threads: 1 Iteration: 19
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 19.610591 seconds
+
+------------------
+Threads: 1 Iteration: 20
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 25.756919 seconds
+
+------------------
+Threads: 1 Iteration: 21
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 27.716403 seconds
+
+------------------
+Threads: 1 Iteration: 22
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 24.050992 seconds
+
+------------------
+Threads: 1 Iteration: 23
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 20.287061 seconds
+
+------------------
+Threads: 1 Iteration: 24
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 49.031186 seconds
+
+------------------
+Threads: 1 Iteration: 25
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 21.171206 seconds
+
+------------------
+Threads: 1 Iteration: 26
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 26.909102 seconds
+
+------------------
+Threads: 1 Iteration: 27
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 24.092040 seconds
+
+------------------
+Threads: 1 Iteration: 28
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 29.930477 seconds
+
+------------------
+Threads: 1 Iteration: 29
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 22.128230 seconds
+
+------------------
+Threads: 1 Iteration: 30
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 1
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 27.917245 seconds
+
+------------------
+Threads: 2 Iteration: 1
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.337393 seconds
+
+------------------
+Threads: 2 Iteration: 2
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.303947 seconds
+
+------------------
+Threads: 2 Iteration: 3
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.145178 seconds
+
+------------------
+Threads: 2 Iteration: 4
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.211186 seconds
+
+------------------
+Threads: 2 Iteration: 5
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.195135 seconds
+
+------------------
+Threads: 2 Iteration: 6
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.505942 seconds
+
+------------------
+Threads: 2 Iteration: 7
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.197688 seconds
+
+------------------
+Threads: 2 Iteration: 8
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.180700 seconds
+
+------------------
+Threads: 2 Iteration: 9
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.157342 seconds
+
+------------------
+Threads: 2 Iteration: 10
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.209389 seconds
+
+------------------
+Threads: 2 Iteration: 11
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.189881 seconds
+
+------------------
+Threads: 2 Iteration: 12
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.154265 seconds
+
+------------------
+Threads: 2 Iteration: 13
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.219904 seconds
+
+------------------
+Threads: 2 Iteration: 14
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.302989 seconds
+
+------------------
+Threads: 2 Iteration: 15
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.196743 seconds
+
+------------------
+Threads: 2 Iteration: 16
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.336439 seconds
+
+------------------
+Threads: 2 Iteration: 17
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.310407 seconds
+
+------------------
+Threads: 2 Iteration: 18
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.176883 seconds
+
+------------------
+Threads: 2 Iteration: 19
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.289109 seconds
+
+------------------
+Threads: 2 Iteration: 20
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.236299 seconds
+
+------------------
+Threads: 2 Iteration: 21
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.256609 seconds
+
+------------------
+Threads: 2 Iteration: 22
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.116214 seconds
+
+------------------
+Threads: 2 Iteration: 23
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.196585 seconds
+
+------------------
+Threads: 2 Iteration: 24
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.280055 seconds
+
+------------------
+Threads: 2 Iteration: 25
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.207590 seconds
+
+------------------
+Threads: 2 Iteration: 26
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.301877 seconds
+
+------------------
+Threads: 2 Iteration: 27
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.289043 seconds
+
+------------------
+Threads: 2 Iteration: 28
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.242897 seconds
+
+------------------
+Threads: 2 Iteration: 29
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.395305 seconds
+
+------------------
+Threads: 2 Iteration: 30
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 2
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.144961 seconds
+
+------------------
+Threads: 4 Iteration: 1
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.426660 seconds
+
+------------------
+Threads: 4 Iteration: 2
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.714027 seconds
+
+------------------
+Threads: 4 Iteration: 3
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.574358 seconds
+
+------------------
+Threads: 4 Iteration: 4
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.463440 seconds
+
+------------------
+Threads: 4 Iteration: 5
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.520021 seconds
+
+------------------
+Threads: 4 Iteration: 6
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.472708 seconds
+
+------------------
+Threads: 4 Iteration: 7
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.609507 seconds
+
+------------------
+Threads: 4 Iteration: 8
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.388718 seconds
+
+------------------
+Threads: 4 Iteration: 9
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.731956 seconds
+
+------------------
+Threads: 4 Iteration: 10
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.503588 seconds
+
+------------------
+Threads: 4 Iteration: 11
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.393535 seconds
+
+------------------
+Threads: 4 Iteration: 12
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.523622 seconds
+
+------------------
+Threads: 4 Iteration: 13
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.626892 seconds
+
+------------------
+Threads: 4 Iteration: 14
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.433693 seconds
+
+------------------
+Threads: 4 Iteration: 15
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.401481 seconds
+
+------------------
+Threads: 4 Iteration: 16
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.426546 seconds
+
+------------------
+Threads: 4 Iteration: 17
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.425196 seconds
+
+------------------
+Threads: 4 Iteration: 18
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.369930 seconds
+
+------------------
+Threads: 4 Iteration: 19
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.705490 seconds
+
+------------------
+Threads: 4 Iteration: 20
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.433953 seconds
+
+------------------
+Threads: 4 Iteration: 21
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.609566 seconds
+
+------------------
+Threads: 4 Iteration: 22
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.651515 seconds
+
+------------------
+Threads: 4 Iteration: 23
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.593004 seconds
+
+------------------
+Threads: 4 Iteration: 24
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.351152 seconds
+
+------------------
+Threads: 4 Iteration: 25
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.412925 seconds
+
+------------------
+Threads: 4 Iteration: 26
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.361344 seconds
+
+------------------
+Threads: 4 Iteration: 27
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.328043 seconds
+
+------------------
+Threads: 4 Iteration: 28
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.538937 seconds
+
+------------------
+Threads: 4 Iteration: 29
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.436617 seconds
+
+------------------
+Threads: 4 Iteration: 30
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 4
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.537500 seconds
+
+------------------
+Threads: 8 Iteration: 1
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.886491 seconds
+
+------------------
+Threads: 8 Iteration: 2
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.869138 seconds
+
+------------------
+Threads: 8 Iteration: 3
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.821478 seconds
+
+------------------
+Threads: 8 Iteration: 4
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.967981 seconds
+
+------------------
+Threads: 8 Iteration: 5
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.302677 seconds
+
+------------------
+Threads: 8 Iteration: 6
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.876382 seconds
+
+------------------
+Threads: 8 Iteration: 7
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.032763 seconds
+
+------------------
+Threads: 8 Iteration: 8
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.767893 seconds
+
+------------------
+Threads: 8 Iteration: 9
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.162040 seconds
+
+------------------
+Threads: 8 Iteration: 10
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.522381 seconds
+
+------------------
+Threads: 8 Iteration: 11
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.328734 seconds
+
+------------------
+Threads: 8 Iteration: 12
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.747270 seconds
+
+------------------
+Threads: 8 Iteration: 13
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.326472 seconds
+
+------------------
+Threads: 8 Iteration: 14
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.197877 seconds
+
+------------------
+Threads: 8 Iteration: 15
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.084820 seconds
+
+------------------
+Threads: 8 Iteration: 16
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.280286 seconds
+
+------------------
+Threads: 8 Iteration: 17
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.060274 seconds
+
+------------------
+Threads: 8 Iteration: 18
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.660531 seconds
+
+------------------
+Threads: 8 Iteration: 19
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.212686 seconds
+
+------------------
+Threads: 8 Iteration: 20
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.317041 seconds
+
+------------------
+Threads: 8 Iteration: 21
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.205440 seconds
+
+------------------
+Threads: 8 Iteration: 22
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.132571 seconds
+
+------------------
+Threads: 8 Iteration: 23
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.955297 seconds
+
+------------------
+Threads: 8 Iteration: 24
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.178163 seconds
+
+------------------
+Threads: 8 Iteration: 25
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.226862 seconds
+
+------------------
+Threads: 8 Iteration: 26
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.983802 seconds
+
+------------------
+Threads: 8 Iteration: 27
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.753063 seconds
+
+------------------
+Threads: 8 Iteration: 28
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.737663 seconds
+
+------------------
+Threads: 8 Iteration: 29
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.592703 seconds
+
+------------------
+Threads: 8 Iteration: 30
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 8
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.579364 seconds
+
+------------------
+Threads: 16 Iteration: 1
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.715393 seconds
+
+------------------
+Threads: 16 Iteration: 2
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.061701 seconds
+
+------------------
+Threads: 16 Iteration: 3
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.800827 seconds
+
+------------------
+Threads: 16 Iteration: 4
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.658813 seconds
+
+------------------
+Threads: 16 Iteration: 5
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.474302 seconds
+
+------------------
+Threads: 16 Iteration: 6
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.768874 seconds
+
+------------------
+Threads: 16 Iteration: 7
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.479588 seconds
+
+------------------
+Threads: 16 Iteration: 8
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.230943 seconds
+
+------------------
+Threads: 16 Iteration: 9
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.747847 seconds
+
+------------------
+Threads: 16 Iteration: 10
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.688169 seconds
+
+------------------
+Threads: 16 Iteration: 11
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.081990 seconds
+
+------------------
+Threads: 16 Iteration: 12
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.773167 seconds
+
+------------------
+Threads: 16 Iteration: 13
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.312475 seconds
+
+------------------
+Threads: 16 Iteration: 14
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.564154 seconds
+
+------------------
+Threads: 16 Iteration: 15
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.810331 seconds
+
+------------------
+Threads: 16 Iteration: 16
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.756175 seconds
+
+------------------
+Threads: 16 Iteration: 17
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.500923 seconds
+
+------------------
+Threads: 16 Iteration: 18
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.807264 seconds
+
+------------------
+Threads: 16 Iteration: 19
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.983432 seconds
+
+------------------
+Threads: 16 Iteration: 20
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.025868 seconds
+
+------------------
+Threads: 16 Iteration: 21
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.461619 seconds
+
+------------------
+Threads: 16 Iteration: 22
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 0.933909 seconds
+
+------------------
+Threads: 16 Iteration: 23
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.645098 seconds
+
+------------------
+Threads: 16 Iteration: 24
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.491997 seconds
+
+------------------
+Threads: 16 Iteration: 25
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.016778 seconds
+
+------------------
+Threads: 16 Iteration: 26
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.179007 seconds
+
+------------------
+Threads: 16 Iteration: 27
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.315520 seconds
+
+------------------
+Threads: 16 Iteration: 28
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.376032 seconds
+
+------------------
+Threads: 16 Iteration: 29
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.350409 seconds
+
+------------------
+Threads: 16 Iteration: 30
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 16
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 1.918644 seconds
+
+------------------
+Threads: 32 Iteration: 1
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.514720 seconds
+
+------------------
+Threads: 32 Iteration: 2
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.245867 seconds
+
+------------------
+Threads: 32 Iteration: 3
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.168346 seconds
+
+------------------
+Threads: 32 Iteration: 4
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.968823 seconds
+
+------------------
+Threads: 32 Iteration: 5
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.230066 seconds
+
+------------------
+Threads: 32 Iteration: 6
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.100939 seconds
+
+------------------
+Threads: 32 Iteration: 7
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.624897 seconds
+
+------------------
+Threads: 32 Iteration: 8
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.711958 seconds
+
+------------------
+Threads: 32 Iteration: 9
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.980348 seconds
+
+------------------
+Threads: 32 Iteration: 10
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.781658 seconds
+
+------------------
+Threads: 32 Iteration: 11
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.413792 seconds
+
+------------------
+Threads: 32 Iteration: 12
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.032851 seconds
+
+------------------
+Threads: 32 Iteration: 13
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.035717 seconds
+
+------------------
+Threads: 32 Iteration: 14
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.979559 seconds
+
+------------------
+Threads: 32 Iteration: 15
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.401690 seconds
+
+------------------
+Threads: 32 Iteration: 16
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.784382 seconds
+
+------------------
+Threads: 32 Iteration: 17
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 6.469976 seconds
+
+------------------
+Threads: 32 Iteration: 18
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.759948 seconds
+
+------------------
+Threads: 32 Iteration: 19
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.877403 seconds
+
+------------------
+Threads: 32 Iteration: 20
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.247179 seconds
+
+------------------
+Threads: 32 Iteration: 21
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.918457 seconds
+
+------------------
+Threads: 32 Iteration: 22
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.936392 seconds
+
+------------------
+Threads: 32 Iteration: 23
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.867695 seconds
+
+------------------
+Threads: 32 Iteration: 24
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.068429 seconds
+
+------------------
+Threads: 32 Iteration: 25
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.432522 seconds
+
+------------------
+Threads: 32 Iteration: 26
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.247982 seconds
+
+------------------
+Threads: 32 Iteration: 27
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 2.865341 seconds
+
+------------------
+Threads: 32 Iteration: 28
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 3.754457 seconds
+
+------------------
+Threads: 32 Iteration: 29
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.349876 seconds
+
+------------------
+Threads: 32 Iteration: 30
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 32
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.630778 seconds
+
+------------------
+Threads: 64 Iteration: 1
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.555122 seconds
+
+------------------
+Threads: 64 Iteration: 2
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 8.997893 seconds
+
+------------------
+Threads: 64 Iteration: 3
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.305035 seconds
+
+------------------
+Threads: 64 Iteration: 4
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.413791 seconds
+
+------------------
+Threads: 64 Iteration: 5
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.121590 seconds
+
+------------------
+Threads: 64 Iteration: 6
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.450683 seconds
+
+------------------
+Threads: 64 Iteration: 7
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 9.115169 seconds
+
+------------------
+Threads: 64 Iteration: 8
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 9.437373 seconds
+
+------------------
+Threads: 64 Iteration: 9
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 8.501377 seconds
+
+------------------
+Threads: 64 Iteration: 10
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.678749 seconds
+
+------------------
+Threads: 64 Iteration: 11
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 9.203908 seconds
+
+------------------
+Threads: 64 Iteration: 12
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.735715 seconds
+
+------------------
+Threads: 64 Iteration: 13
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.417986 seconds
+
+------------------
+Threads: 64 Iteration: 14
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.132058 seconds
+
+------------------
+Threads: 64 Iteration: 15
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 8.287838 seconds
+
+------------------
+Threads: 64 Iteration: 16
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.196598 seconds
+
+------------------
+Threads: 64 Iteration: 17
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 6.708451 seconds
+
+------------------
+Threads: 64 Iteration: 18
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 9.618506 seconds
+
+------------------
+Threads: 64 Iteration: 19
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.484626 seconds
+
+------------------
+Threads: 64 Iteration: 20
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 4.755394 seconds
+
+------------------
+Threads: 64 Iteration: 21
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.945749 seconds
+
+------------------
+Threads: 64 Iteration: 22
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.023954 seconds
+
+------------------
+Threads: 64 Iteration: 23
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 8.147447 seconds
+
+------------------
+Threads: 64 Iteration: 24
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 7.830602 seconds
+
+------------------
+Threads: 64 Iteration: 25
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.099803 seconds
+
+------------------
+Threads: 64 Iteration: 26
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.687873 seconds
+
+------------------
+Threads: 64 Iteration: 27
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 5.667592 seconds
+
+------------------
+Threads: 64 Iteration: 28
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 6.144742 seconds
+
+------------------
+Threads: 64 Iteration: 29
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 9.642814 seconds
+
+------------------
+Threads: 64 Iteration: 30
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 64
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 8.167823 seconds
+
+------------------
+Threads: 128 Iteration: 1
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 16.598659 seconds
+
+------------------
+Threads: 128 Iteration: 2
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 22.462057 seconds
+
+------------------
+Threads: 128 Iteration: 3
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 15.160637 seconds
+
+------------------
+Threads: 128 Iteration: 4
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 8.586749 seconds
+
+------------------
+Threads: 128 Iteration: 5
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 15.574631 seconds
+
+------------------
+Threads: 128 Iteration: 6
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 16.233856 seconds
+
+------------------
+Threads: 128 Iteration: 7
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 10.826933 seconds
+
+------------------
+Threads: 128 Iteration: 8
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 16.648444 seconds
+
+------------------
+Threads: 128 Iteration: 9
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 15.591382 seconds
+
+------------------
+Threads: 128 Iteration: 10
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 11.511780 seconds
+
+------------------
+Threads: 128 Iteration: 11
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 15.206289 seconds
+
+------------------
+Threads: 128 Iteration: 12
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 12.018116 seconds
+
+------------------
+Threads: 128 Iteration: 13
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 17.267519 seconds
+
+------------------
+Threads: 128 Iteration: 14
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 19.925329 seconds
+
+------------------
+Threads: 128 Iteration: 15
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 14.214610 seconds
+
+------------------
+Threads: 128 Iteration: 16
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 17.990692 seconds
+
+------------------
+Threads: 128 Iteration: 17
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 19.469006 seconds
+
+------------------
+Threads: 128 Iteration: 18
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 25.136774 seconds
+
+------------------
+Threads: 128 Iteration: 19
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 26.366193 seconds
+
+------------------
+Threads: 128 Iteration: 20
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 15.322506 seconds
+
+------------------
+Threads: 128 Iteration: 21
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 21.049454 seconds
+
+------------------
+Threads: 128 Iteration: 22
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 18.008437 seconds
+
+------------------
+Threads: 128 Iteration: 23
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 17.445974 seconds
+
+------------------
+Threads: 128 Iteration: 24
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 15.365566 seconds
+
+------------------
+Threads: 128 Iteration: 25
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 17.267991 seconds
+
+------------------
+Threads: 128 Iteration: 26
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 19.365999 seconds
+
+------------------
+Threads: 128 Iteration: 27
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 18.961610 seconds
+
+------------------
+Threads: 128 Iteration: 28
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 17.381597 seconds
+
+------------------
+Threads: 128 Iteration: 29
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 16.974888 seconds
+
+------------------
+Threads: 128 Iteration: 30
+Ad-hoc generated RENPSM OPENMP simulator
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see GNU GPL v3.0 for details.
+DEBUG: 0
+THREADS: 128
+STEPS: 1048576
+MAP: map.pgm
+OUTPUT: test1_output.pgm
+Wall time: 28.191571 seconds
+benchmark.sh birrt_renpsm_test1.pli birrt_renpsm_test2.pli examples functions.h gen_c.h inception.jpg lex.yy.c LICENSE map.pgm office.pgm pgm.c pgm.h process_results.c README.md renpsm.l renpsm_openmp renpsm_parser.h renpsm.y salida.txt simulator.c test1 test1_output1.pgm test1_output.pgm test2 y.tab.c y.tab.h
+SIMULATING TEST 2
+benchmark.sh birrt_renpsm_test1.pli birrt_renpsm_test2.pli examples functions.h gen_c.h inception.jpg lex.yy.c LICENSE map.pgm office.pgm pgm.c pgm.h process_results.c README.md renpsm.l renpsm_openmp renpsm_parser.h renpsm.y salida.txt simulator.c test1 test1_output1.pgm test1_output.pgm test2 y.tab.c y.tab.h
+
+------------------
+THREADS: 1 ITERATION: 1
