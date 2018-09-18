@@ -116,13 +116,13 @@ If you want to write your benchmark output to a file:
 where file.txt is the name of the output file.
 
 In order to process the data and compute average values and standard deviations, you
-can use the file ''process_benchmark_output.c''. Firstly, you should compile it:
+can use the file ''process_results.c''. Firstly, you should compile it:
 
-- gcc process_benchmark_output.c -o process_benchmark_output
+- gcc process_results.c -o process_results
 
 Then, you can process your output file as follows:
 
-- ./process_benchmark_output file.txt
+- ./process_results file.txt
 
 where file.txt is, again, the name of the output file containing the benchmark results.
 
