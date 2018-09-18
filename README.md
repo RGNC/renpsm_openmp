@@ -91,6 +91,10 @@ Where:
 
 ### Example outputs
 
+![Example1](/examples/example5.jpg)
+![Example2](/examples/example6.jpg)
+![Example3](/examples/example7.jpg)
+![Example4](/examples/example8.jpg)
 
 
 *Programming a program inside a program is something like...*
