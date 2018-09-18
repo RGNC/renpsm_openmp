@@ -149,18 +149,16 @@ def init_rules()
 				euclideanDistance(X{1,mem},X{2,mem},Y{1,mem},Y{2,mem}),
 				alpha{9}  ?FlagA{mem} : 1<=i<=2;
 				
-    U{i,mem} <- (X{i,mem}-Y{i,mem}) / 
+	U{i,mem} <- (X{i,mem}-Y{i,mem}) / 
 				euclideanDistance(X{3,mem},X{4,mem},Y{3,mem},Y{4,mem}),
 				alpha{9} ?FlagB{mem} : 3<=i<=4;
 				
 	/* STEP 10 */
-	FlagA{mem} <- if(collision(Y{1,mem},Y{2,mem},U{1,mem},U{2,mem},delta),
-					 0,p*q+1), 
-	              alpha{10}  ?FlagA{mem};
+	FlagA{mem} <- if(collision(Y{1,mem},Y{2,mem},U{1,mem},U{2,mem},delta),0,p*q+1),
+					alpha{10} ?FlagA{mem};
 	
-	FlagB{mem} <- if(collision(Y{3,mem},Y{4,mem},U{3,mem},U{4,mem},delta),
-	                 0,p*q+1), 
-	              alpha{10} ?FlagB{mem};
+	FlagB{mem} <- if(collision(Y{3,mem},Y{4,mem},U{3,mem},U{4,mem},delta),0,p*q+1), 
+					alpha{10} ?FlagB{mem};
 	              
 	/* STEP 11 */                            
 	Z{i,mem} <- round(Y{i,mem} + U{i,mem} * delta), alpha{11} ?FlagA{mem} : 1<=i<=2;
@@ -186,9 +184,9 @@ def init_rules()
 	
 	/* STEP 15 */
 	D{h} <- if(FlagB{mem},euclideanDistance(X{1,h},X{2,h},Y{1,h},Y{2,h}),p*q+1), 
-	        alpha{15} : h in ha;
+			alpha{15} : h in ha;
 	D{h} <- if(FlagA{mem},euclideanDistance(X{1,h},X{2,h},Y{1,h},Y{2,h}),p*q+1), 
-	        alpha{15} : h in hb;
+			alpha{15} : h in hb;
 	        
 	/* STEP 16 */
 	A{h,mem} <- D{h}, alpha{16} : h in ha;
@@ -201,9 +199,9 @@ def init_rules()
 	/* STEP 18 */
 	Halt{mem} <- if(A{mem} <= threshold || B{mem}<= threshold, 1, 0), alpha{18};          			
 	
-	 /* PROTEIN EVOLUTION */
-    [alpha{i} -> alpha{i+1}]'mem : 1<=i<=17;
-    [alpha{18} -> alpha{1}]'mem;
+	/* PROTEIN EVOLUTION */
+	[alpha{i} -> alpha{i+1}]'mem : 1<=i<=17;
+	[alpha{18} -> alpha{1}]'mem;
 }
 
 
