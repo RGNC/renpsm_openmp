@@ -118,7 +118,7 @@ where file.txt is the name of the output file.
 In order to process the data and compute average values and standard deviations, you
 can use the file ''process_results.c''. Firstly, you should compile it:
 
-- gcc process_results.c -o process_results
+- gcc process_results.c -lm -o process_results
 
 Then, you can process your output file as follows:
 
@@ -126,7 +126,31 @@ Then, you can process your output file as follows:
 
 where file.txt is, again, the name of the output file containing the benchmark results.
 
-Average values and standard deviations will be prompted to the standard output.
+Average values and standard deviations will be prompted to the standard output, including speed-up values.
+
+The output for the file benchmark_output.txt is as follows:
+
+
+Threads: 1. Average time: 26.251848 seconds. Sd: 7.615338. Speed-up 1.000000
+
+Threads: 2. Average time: 0.242932 seconds. Sd: 0.082716. Speed-up 108.062612
+
+Threads: 4. Average time: 0.498864 seconds. Sd: 0.112994. Speed-up 52.623243
+
+Threads: 8. Average time: 1.159005 seconds. Sd: 0.382271. Speed-up 22.650337
+
+Threads: 16. Average time: 1.964375 seconds. Sd: 0.607856. Speed-up 13.363970
+
+Threads: 32. Average time: 4.046735 seconds. Sd: 0.941201. Speed-up 6.487168
+
+Threads: 64. Average time: 7.215875 seconds. Sd: 1.526436. Speed-up 3.638068
+
+Threads: 128. Average time: 17.404175 seconds. Sd: 4.225569. Speed-up 1.508365
+
+
+Obtaining a speed-up of **108x** when using two threads.
+
+
 
 *Programming a program inside a program is something like...*
 
