@@ -126,10 +126,10 @@ double function_collision(double a, double b, double u0, double u1, double delta
 	return detect_obstacle(map,x0,y0,x1,y1,250);
 }
 
-void parse_input(int argc, char* argv[], int *debug, int *threads, int *steps, char *map_file, char *out_file)
+void parse_input(int argc, char* argv[], int *debug, int *threads, int *steps, char *map_file, char *out_file, unsigned int *seed)
 {
 	int c;
-	while ((c = getopt (argc, argv, "dt:s:m:o:")) != -1)
+	while ((c = getopt (argc, argv, "dt:s:m:o:r:")) != -1)
     switch (c)
       {
       case 'd':
@@ -147,6 +147,9 @@ void parse_input(int argc, char* argv[], int *debug, int *threads, int *steps, c
 	  case 'o':
 	    strcpy(out_file,optarg);
 	    break;
+	  case 'r':
+		*seed = atoi(optarg);
+		break;
       default:
        ;
       }

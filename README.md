@@ -52,13 +52,14 @@ the file.
 
 The generated ad-hoc simulator has the next command-line syntax:
 
-./simulator [-t threads] [-s steps] [-d] [-m obstacles.pgm] [-o output.pgm] 
+./simulator [-t threads] [-s steps] [-d] [-r seed] [-m obstacles.pgm] [-o output.pgm] 
 
 Where:
 
 - ''-t threads'' is the number of threads to be used. Default is 4. If you set 1 thread, the simulator will be sequential.
 - ''-s steps'' is the maximum number of computational steps to simulate. The simulator stops if the variable Halt{mem} is set to 1 or the number of steps is reached. Default is 1048576 steps.
 - If ''-d'' is set, debug information will be prompted.
+- ''-r seed'' defines the pseudo-random number generator seed. If no seed is configured, an arbitrary seed based on the current clock time will be used.
 - ''-m obstacles.pgm'' is the PGM file defining the obstacle grid for the collision function (optional).
 - ''-o output.pgm'' is the PGM file to print the membrane tree (only for RRT algorithms).
 
@@ -71,8 +72,9 @@ Where:
 	- ./test1 -t 8 -d -m map.pgm -o test1_output.pgm
 - For run the computation until halting condition:
 	- ./test1 -t 8 -m map.pgm -o test1_output.pgm
-
-### Example outputs
+- For run with a specific pseudo-random number generator seed (for instance, 42)
+	- ./test1 -t 8 -m map.pgm -r 42 -o test1_output.pgm
+### Example outputs with arbitrary pseudo-random number generator seeds
 
 ![Example1](/examples/example1.jpg)
 ![Example2](/examples/example2.jpg)
@@ -88,8 +90,10 @@ Where:
 	- ./test2 -t 8 -d -m office.pgm -o test2_output.pgm
 - For run the computation until halting condition:
 	- ./test2 -t 8 -m office.pgm -o test2_output.pgm
+- For run with a specific pseudo-random number generator seed (for instance, 42)
+	- ./test2 -t 8 -m office.pgm -r 42 -o test2_output.pgm
 
-### Example outputs
+### Example outputs with arbitrary pseudo-random number generator seeds
 
 ![Example1](/examples/example5.jpg)
 ![Example2](/examples/example6.jpg)

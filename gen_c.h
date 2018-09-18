@@ -467,10 +467,11 @@ void generate_c_simulator(FILE* fp, DEFINITIONS* defs)
 		
 	fprintf(fp,"\nint main(int argc, char* argv[])\n");
 	fprintf(fp,"{\n");
-	fprintf(fp,"\tsrand(time(NULL));\n");
+	fprintf(fp,"\tunsigned int seed = time(NULL);\n");
 	fprintf(fp,"\tstrcpy(map_file,\"office.pgm\");\n");
 	fprintf(fp,"\tstrcpy(out_file,\"out.pgm\");\n");
-	fprintf(fp,"\tparse_input(argc,argv,&debug,&threads,&max_steps,map_file,out_file);\n");
+	fprintf(fp,"\tparse_input(argc,argv,&debug,&threads,&max_steps,map_file,out_file,&seed);\n");
+	fprintf(fp,"\tsrand(seed);\n");
 	fprintf(fp,"\tprint_header(debug,threads,max_steps,map_file,out_file);\n");
 	fprintf(fp,"\tmap = load_pgm(map_file);\n");
 	fprintf(fp,"\t// SET MEMORY FOR MEMBRANES\n");
