@@ -28,7 +28,7 @@ You can compile the source code following the next steps:
 
 -  bison -yd renpsm.y
 -  flex renpsm.l
--  gcc y.tab.c lex.yy.c -lfl -O3 -Wall -o renpsm_openmp
+-  gcc y.tab.c lex.yy.c -lfl -O3 -o renpsm_openmp
 
 ## Using the P-Lingua RENPSM parser
 
@@ -43,7 +43,7 @@ in C language and OpenMP for an ad-hoc simulator following the model defined in 
 
 You can compile the generated ad-hoc simulator with the next line:
 
-- gcc simulator.c pgm.c -lm -Wall -O3 -fopenmp -o simulator
+- gcc simulator.c pgm.c -lm -O3 -fopenmp -o simulator
 
 All the production functions must be implemented in ''functions.h'' file. You could include custom production functions by adding the C code to
 the file. 
@@ -66,8 +66,9 @@ Where:
 
 -  bison -yd renpsm.y
 -  flex renpsm.l
--  gcc y.tab.c lex.yy.c -lfl -O3 -Wall -o renpsm_openmp
+-  gcc y.tab.c lex.yy.c -lfl -O3 -o renpsm_openmp
 - ./renpsm_openmp < birrt_renpsm.pli
+- gcc simulator.c pgm.c -lm -O3 -fopenmp -o simulator
 - ./simulator -t 32 -d -m map.pgm -o output.pgm
 
 *Programming a program inside a program is something like...*
