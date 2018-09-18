@@ -49,10 +49,10 @@ def main()
 	skin = p*q+1;  // Label of the skin membrane
 	mem = 0; // We asign the label 0 to the shared membrane
 	
-	call init_membrane_structure(ha,hb,skin);
-	call init_multisets(mem);
-	call init_variables(x0,y0,x1,y1,ha,hb);
-	call init_rules(ha,hb,mem,skin,p,q,delta,threshold);
+	call init_membrane_structure();
+	call init_multisets();
+	call init_variables();
+	call init_rules();
 }
 
 // Initial parameters for file map.pgm
@@ -87,17 +87,17 @@ def init_parameters2()
 	threshold = 2.0; // 2 cells ~ 15cm. 
 }
 
-def init_membrane_structure(ha,hb,skin)
+def init_membrane_structure()
 {
 	@mu = [ []'ha []'hb ]'skin;
 }
 
-def init_multisets(mem)
+def init_multisets()
 {
 	@ms(mem) = alpha{1};
 }
 
-def init_variables(x0,y0,x1,y1,ha,hb)
+def init_variables()
 {
 	@Y{1,ha} = x0;
 	@Y{2,ha} = y0;
@@ -106,7 +106,7 @@ def init_variables(x0,y0,x1,y1,ha,hb)
 	@Y{2,hb} = y1;
 }
 
-def init_rules(ha,hb,mem,skin,p,q,delta,threshold)
+def init_rules()
 {
 	H{1,mem} <- X{1,mem}, alpha{20};
 
