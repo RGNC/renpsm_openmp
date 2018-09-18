@@ -62,11 +62,6 @@ Where:
 - ''-m obstacles.pgm'' is the PGM file defining the obstacle grid for the collision function (optional).
 - ''-o output.pgm'' is the PGM file to print the membrane tree (only for RRT algorithms).
 
-## Compiling the source code to run the tests
-
--  bison -yd renpsm.y
--  flex renpsm.l
--  gcc y.tab.c lex.yy.c -lfl -o renpsm_openmp
 
 ## Running the test 1
 
