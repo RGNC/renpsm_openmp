@@ -62,21 +62,35 @@ Where:
 - ''-m obstacles.pgm'' is the PGM file defining the obstacle grid for the collision function (optional).
 - ''-o output.pgm'' is the PGM file to print the membrane tree (only for RRT algorithms).
 
-## Running the example
+## Compiling the source code to run the tests
 
 -  bison -yd renpsm.y
 -  flex renpsm.l
 -  gcc y.tab.c lex.yy.c -lfl -o renpsm_openmp
-- ./renpsm_openmp < birrt_renpsm.pli
-- gcc simulator.c pgm.c -lm -O3 -fopenmp -o simulator
-- ./simulator -t 8 -d -m map.pgm -o output.pgm
 
-## Examples
+## Running the test 1
+
+- ./renpsm_openmp < birrt_renpsm_test1.pli
+- gcc simulator.c pgm.c -lm -O3 -fopenmp -o test1
+- ./test1 -t 8 -d -m map.pgm -o test1_output.pgm
+
+### Example outputs
 
 ![Example1](/examples/example1.jpg)
 ![Example2](/examples/example2.jpg)
 ![Example3](/examples/example3.jpg)
 ![Example4](/examples/example4.jpg)
+
+
+## Running the test 2
+
+- ./renpsm_openmp < birrt_renpsm_test2.pli
+- gcc simulator.c pgm.c -lm -O3 -fopenmp -o test2
+- ./test2 -t 8 -d -m office.pgm -o test2_output.pgm
+
+
+### Example outputs
+
 
 
 *Programming a program inside a program is something like...*

@@ -1,0 +1,195 @@
+/* 
+ * birrt_renpsm.pli:
+ *
+ * This P-Lingua file defines a model to simulate the bidirectional
+ * RRT algorithm for Robot Path Planning by using Random Enzymatic
+ * Numerical P Systems with Shared Memory (RENPSM). 
+ * 
+ * More information can be found in:
+ * 
+ * I. Perez-Hurtado, G. Zang, M.J. Perez-Jimenez, D. Orellana
+ * Simulation of Rapidly-Exploring Random Trees in Membrane Computing 
+ * with P-Lingua and Automatic Programing
+ * International Journal of Computers, Communications and Control, in press.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * Copyright (C) 2018  Ignacio Perez-Hurtado (perezh@us.es)
+ *                     Research Group On Natural Computing
+ *                     http://www.gcn.us.es
+ *
+ * You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+ */
+
+@model<renpsm>
+
+/* BIDIRECTIONAL RRT ALGORITHM WITH 
+   RANDOM ENZYMATIC NUMERICAL P SYSTEMS */
+
+/* The problem is to find a path from (x0,y0) to (x1,y1) 
+   in a region of width p and length q */
+
+def main()
+{
+
+	/* BEGIN INIT PARAMETERS */
+	// Use a PGM file for obstacles.
+	// each pixel represents 0.5 x 0.5 cm
+	// The pixel (0,0) is up-left. 
+	// The pixel (p,q) is bottom-right
+		
+	// USE THIS PARAMETERS FOR MAP.PGM OBSTACLES FILE
+	p = 357; // width in pixels
+	q = 325; // height in pixels
+	
+	x0=162; y0 = 172; // Robot origin (x0,y0)
+	x1=277; y1 = 84; // Robot goal (x1,y1)
+	
+	delta = 2.0; // 2 cells ~ 10cm. Robot step.
+	threshold = 2.0; // 2 cells ~ 10cm. 
+	
+	/* END INIT PARAMETERS */
+	
+	ha = y0*p + x0 + 1; // Label of initial membrane
+	hb = y1*p + x1 + 1; // Label of goal membrane
+	
+	skin = p*q+1;  // Label of the skin membrane
+	mem = 0; // We asign the label 0 to the shared membrane
+	
+	call init_membrane_structure();
+	call init_multisets();
+	call init_variables();
+	call init_rules();
+}
+
+
+def init_membrane_structure()
+{
+	@mu = [ []'ha []'hb ]'skin;
+}
+
+def init_multisets()
+{
+	@ms(mem) = alpha{1};
+}
+
+def init_variables()
+{
+	@Y{1,ha} = x0;
+	@Y{2,ha} = y0;
+	
+	@Y{1,hb} = x1;
+	@Y{2,hb} = y1;
+}
+
+def init_rules()
+{
+	/* STEP 1 */
+	X{1,mem} <- random(1,p) , alpha{1};
+	X{2,mem} <- random(1,q) , alpha{1};
+	X{3,mem} <- random(1,p) , alpha{1};
+	X{4,mem} <- random(1,q) , alpha{1};
+	
+	/* STEP 2 */
+	X{i,h} <- X{i,mem} , alpha{2} : h in ha, 1<=i<=2; 
+	X{i,h} <- X{i+2,mem} , alpha{2} : h in hb, 1<=i<=2;
+	
+	/* STEP 3 */
+	D{h} <- euclideanDistance(X{1,h},X{2,h},Y{1,h},Y{2,h}) , 
+	        alpha{3} : h in skin;  
+	        
+	/* STEP 4 */
+	A{h,mem} <- D{h}, alpha{4} : h in ha;
+	B{h,mem} <- D{h}, alpha{4} : h in hb;
+	
+	/* STEP 5 */
+	A{mem} <- min(A{h,mem} : h in ha), alpha{5};
+	B{mem} <- min(B{h,mem} : h in hb), alpha{5};
+	
+	/* STEP 6 */
+	FlagA{mem} <- if(A{mem} <= threshold,0,p*q+1), alpha{6};
+	FlagB{mem} <- if(B{mem} <= threshold,0,p*q+1), alpha{6};                 
+	
+	/* STEP 7 */
+	NA{mem} <- arg_min(A{h,mem} : h in ha), alpha{7} ?FlagA{mem};
+	NB{mem} <- arg_min(B{h,mem} : h in hb), alpha{7} ?FlagB{mem};
+	
+	/* STEP 8 */
+	Y{1,mem} <- rm(NA{mem}-1,p), alpha{8} ?FlagA{mem};
+	Y{2,mem} <- qt(NA{mem}-1,p), alpha{8} ?FlagA{mem};
+	Y{3,mem} <- rm(NB{mem}-1,p), alpha{8} ?FlagB{mem};
+	Y{4,mem} <- qt(NB{mem}-1,p), alpha{8} ?FlagB{mem};
+	
+	/* STEP 9 */
+	U{i,mem} <- (X{i,mem}-Y{i,mem}) / 
+				euclideanDistance(X{1,mem},X{2,mem},Y{1,mem},Y{2,mem}),
+				alpha{9}  ?FlagA{mem} : 1<=i<=2;
+				
+	U{i,mem} <- (X{i,mem}-Y{i,mem}) / 
+				euclideanDistance(X{3,mem},X{4,mem},Y{3,mem},Y{4,mem}),
+				alpha{9} ?FlagB{mem} : 3<=i<=4;
+				
+	/* STEP 10 */
+	FlagA{mem} <- if(collision(Y{1,mem},Y{2,mem},U{1,mem},U{2,mem},delta),0,p*q+1),
+					alpha{10} ?FlagA{mem};
+	
+	FlagB{mem} <- if(collision(Y{3,mem},Y{4,mem},U{3,mem},U{4,mem},delta),0,p*q+1), 
+					alpha{10} ?FlagB{mem};
+	              
+	/* STEP 11 */                            
+	Z{i,mem} <- round(Y{i,mem} + U{i,mem} * delta), alpha{11} ?FlagA{mem} : 1<=i<=2;
+	Z{i,mem} <- round(Y{i,mem} + U{i,mem} * delta), alpha{11} ?FlagB{mem} : 3<=i<=4;
+	
+	/* STEP 12 */
+	HA{mem}  <- Z{2,mem}*p + Z{1,mem} + 1, alpha{12} ?FlagA{mem};
+	HB{mem}  <- Z{4,mem}*p + Z{3,mem} + 1, alpha{12} ?FlagB{mem};
+	
+	Z{i,NA{mem}} <- Z{i,mem}, alpha{12} ?FlagA{mem} : 1<=i<=2;
+	Z{i,NB{mem}} <- Z{i+2,mem}, alpha{12} ?FlagB{mem} : 1<=i<=2;  
+	
+	/* STEP 13 */
+	[ [ ]'HA{mem} ]'NA{mem}, alpha{13} ?FlagA{mem};
+	[ [ ]'HB{mem} ]'NB{mem}, alpha{13} ?FlagB{mem};
+	
+	Y{i,HA{mem}} <- Z{i,mem}, alpha{13} ?FlagA{mem} : 1<= i <= 2;
+	Y{i,HB{mem}} <- Z{i+2,mem}, alpha{13} ?FlagB{mem} : 1<= i <= 2;  
+	
+	/* STEP 14 */
+	X{i,h} <- Z{i+2,mem}, alpha{14} ?FlagB{mem}: h in ha , 1<=i<=2;
+	X{i,h} <- Z{i,mem}, alpha{14} ?FlagA{mem}: h in hb , 1<=i<=2;
+	
+	/* STEP 15 */
+	D{h} <- if(FlagB{mem},euclideanDistance(X{1,h},X{2,h},Y{1,h},Y{2,h}),p*q+1), 
+			alpha{15} : h in ha;
+	D{h} <- if(FlagA{mem},euclideanDistance(X{1,h},X{2,h},Y{1,h},Y{2,h}),p*q+1), 
+			alpha{15} : h in hb;
+	        
+	/* STEP 16 */
+	A{h,mem} <- D{h}, alpha{16} : h in ha;
+	B{h,mem} <- D{h}, alpha{16} : h in hb;
+	
+	/* STEP 17 */
+	A{mem} <- min(A{h,mem} : h in ha), alpha{17};
+	B{mem} <- min(B{h,mem} : h in hb), alpha{17};
+	
+	/* STEP 18 */
+	Halt{mem} <- if(A{mem} <= threshold || B{mem}<= threshold, 1, 0), alpha{18};          			
+	
+	/* PROTEIN EVOLUTION */
+	[alpha{i} -> alpha{i+1}]'mem : 1<=i<=17;
+	[alpha{18} -> alpha{1}]'mem;
+}
+
+
+
+
+
