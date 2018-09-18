@@ -72,6 +72,6 @@ Where:
 
 *Programming a program inside a program is something like a dream inside a dream...*
 
-[[inception.jpg|Inception]]
+[[/inception.jpg|Inception]]
  
 
