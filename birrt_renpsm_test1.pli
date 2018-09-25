@@ -43,7 +43,7 @@ def main()
 
 	/* BEGIN INIT PARAMETERS */
 	// Use a PGM file for obstacles.
-	// each pixel represents 0.5 x 0.5 cm
+	// each pixel represents 5 x 5 cm
 	// The pixel (0,0) is up-left. 
 	// The pixel (p,q) is bottom-right
 		
